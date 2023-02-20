@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wapper {
+    background: #f1f0f1;
+}
+
+
+/* HEADER */
+
+.logo {
+    padding-left: 150px;
+}
+
+.search {
+    position: relative;
+}
+
+.search>input {
+    font-size: 12px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.search>button {
+    position: absolute;
+    top: 0px;
+    background: none;
+    border: none;
+    left: 427px;
+    color: white;
+}
+
+.search>button>i {
+    padding-top: 7px;
+    width: 36px;
+    background: red;
+    height: 30px;
+    border: 1px;
+    font-size: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-main>ul {
+    display: flex;
+    position: relative;
+}
+
+.menu-main>ul>li>i {
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+.menu-main>ul>li>.pt2 {
+    padding-left: 110px;
+}
+
+.menu-main>ul>li>a {
+    width: 500px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    position: absolute;
+    top: 6px;
+}
+
+.menu-main {
+    padding-left: 4px;
+    padding-bottom: 12px;
+}
+
+
+/* == */
+
+.wp-pt1-box2 {
+    display: flex;
+}
+
+.wp-box2 {
+    position: relative;
+}
+
+.wp-pt-t-box2 {
+    position: absolute;
+    top: 5px;
+    left: 350px;
+}
+
+
+/* ==pt2-box2=== */
+
+.menu-main>.sub-ul>li>a {
+    width: 500px;
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+}
+
+.menu-main>.sub-ul>li {
+    position: relative;
+}
+
+.menu-main>.sub-ul>li>b {
+    position: absolute;
+    color: red;
+    top: -4px;
+    left: 125px;
+    font-size: 17px;
+}
+
+.menu-main>.sub-ul {
+    position: relative;
+}
+
+.sub-ul>.pt2-sub-ul {
+    position: absolute;
+    left: 130px;
+}
+
+.sub-ul>.pt3-sub-ul {
+    position: absolute;
+    left: 220px;
+}
+
+.sub-ul>.pt3 {
+    position: absolute;
+    left: 50px;
+}
+
+.sub-ul>.pt4-sub-ul {
+    position: absolute;
+    left: 440px;
+}
+
+.sub-ul>.pt5-sub-ul {
+    position: absolute;
+    left: 580px;
+}
+
+.menu-main>.sub-ul>b {
+    position: absolute;
+    font-size: 17px;
+    color: red;
+    top: -4px;
+    left: 480px;
+}
+
+.menu-main>.sub-ul>.p1 {
+    position: absolute;
+    font-size: 17px;
+    color: red;
+    top: -4px;
+    left: 250px;
+}
+
+.menu-main>.sub-ul>.p2 {
+    position: absolute;
+    font-size: 17px;
+    color: red;
+    top: -4px;
+    left: 120px;
+}
+
+.menu-main>.sub-ul>.p4 {
+    position: absolute;
+    font-size: 17px;
+    color: red;
+    top: -4px;
+    left: 640px;
+}
+
+
+/* ==pt3-box2==== */
+
+.sub-ul-1>li {
+    width: 260px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.sub-ul-1>.porduct1 {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.sub-ul-1>li>div {
+    position: relative;
+}
+
+.sub-ul-1>li>div>a {
+    position: absolute;
+    font-size: 11px;
+    top: 8px;
+    left: 70px;
+    text-decoration: none;
+    color: rgb(147, 119, 119);
+}
+
+.sub-ul-1>li>div>img {
+    position: absolute;
+    left: 45px;
+}
